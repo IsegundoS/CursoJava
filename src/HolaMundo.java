@@ -10,6 +10,7 @@ public class HolaMundo {
         //Loops loops = new Loops();
         //loops.iterarConFor();
 
+        // clase auto
         System.out.println("AUTO");
         Auto auto = new Auto();
         System.out.println(auto.getPlaca());
@@ -17,6 +18,7 @@ public class HolaMundo {
         System.out.println(auto.getNumeroLLantas());
         auto.lavarVehiculo();
 
+        // clase moto
         System.out.println("MOTO");
         MotoCicleta moto = new MotoCicleta();
         moto.setNumeroLlantas(2);
