@@ -4,12 +4,15 @@ import primeraclase.MotoCicleta;
 import primeraclase.Vehiculo;
 import primeraclase.excepciones.PlacaInvalidaException;
 
+import  coleciones.DVD;
+
 public class HolaMundo {
     public static void main(String[] args) throws PlacaInvalidaException {
         //System.out.println("Hola mundo cruel!");
         //Loops loops = new Loops();
         //loops.iterarConFor();
 
+        /**
         // clase auto
         System.out.println("AUTO");
         Auto auto = new Auto();
@@ -32,7 +35,23 @@ public class HolaMundo {
             //Liberar recuros
         }
 
+         **/
+        //String x1= "Hola Mundo";
+        //String x2= "Hola Mundo";
+
+        //System.out.println(x1.equals(x2));
+
         //Vehiculo vehiculo = new Vehiculo();
+
+        DVD dvd =  new DVD("1", "2","3");
+
+
+
+
+        System.out.println(dvd.getGenero());
+        System.out.println(dvd.getTitulo());
+        System.out.println(dvd.getProtagonista());
+
 
     }
 }
