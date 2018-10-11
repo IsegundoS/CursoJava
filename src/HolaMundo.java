@@ -1,3 +1,4 @@
+import estatic.Galleta;
 import loops.Loops;
 import  primeraclase.Auto;
 import primeraclase.MotoCicleta;
@@ -46,6 +47,7 @@ public class HolaMundo {
         DVD dvd =  new DVD("1", "2","3", "");
 
 
+        //Galleta galleta =  new Galleta();
 
 
         System.out.println(dvd.getGenero());

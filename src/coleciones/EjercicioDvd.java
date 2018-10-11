@@ -13,7 +13,6 @@ public class EjercicioDvd {
         dvd=llenarLista();
 
 
-
         for (DVD list:dvd) {
             System.out.println(list.toString());
         }
@@ -80,6 +79,7 @@ public class EjercicioDvd {
          //for (DVD dvdName:listaDVD){
            // System.out.println(dvdName.getTitulo());
         //}
+
 
         return listaDVD;
 

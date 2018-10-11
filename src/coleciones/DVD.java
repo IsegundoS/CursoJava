@@ -1,6 +1,6 @@
 package coleciones;
 
-public class DVD implements  Comparable<DVD>{
+   public class DVD implements  Comparable<DVD>{
     private  String titulo;
     private String genero;
     private String protagonista;
